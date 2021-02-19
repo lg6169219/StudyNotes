@@ -241,6 +241,8 @@ void main()
 	FloorPrint_Queue(pTree);
 
 	FloorPrint(pTree);
-
+	
+	// TODO: free malloc
+	
 	system("pause");
 }
