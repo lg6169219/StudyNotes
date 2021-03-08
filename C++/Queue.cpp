@@ -152,7 +152,7 @@ void SeqList<DataType>::printAll()
 int main()
 {
     SeqList<int> list(10);//建立顺序表
-    for (int i = 0; i < list.getLength(); i++)
+    for (int i = 0; i < 10; i++)
     {
         list.insertElement(i*10);
     }
