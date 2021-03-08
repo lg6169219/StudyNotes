@@ -221,7 +221,7 @@ void FloorPrint_Queue(TreeNode* Tree)
 	cout << "NULL" << endl;
 }
 
-void main()
+int main()
 {
 	TreeNode* pTree = nullptr;
 	pTree = CreateBinaryTree(pTree);
@@ -245,4 +245,6 @@ void main()
 	// TODO: free malloc
 	
 	system("pause");
+
+	return 0;
 }
